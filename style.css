@@ -122,7 +122,12 @@ header{
 .col4:hover{
     transform: scale(110%);
 }
-.col2 .offer-img{
-    
-    height: 150%;
+.offer{
+    background:#b1b2ff;
+    margin-top:80px;
+    padding: 30px 0;
+}
+.col .offer-img{
+   scale: 3.5;
+   padding-right:50px;
 }
