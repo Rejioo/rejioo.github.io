@@ -119,6 +119,10 @@ header{
 .rating .fa{
     color:#6668f0
 }
-.col4 :hover{
-    transform: translateY(-10px);
+.col4:hover{
+    transform: scale(110%);
+}
+.col2 .offer-img{
+    
+    
 }
