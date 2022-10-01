@@ -123,6 +123,7 @@ header{
     transform: scale(110%);
 }
 .offer{
+    
     background:#b1b2ff;
     margin-top:80px;
     padding: 30px 0;
@@ -130,4 +131,17 @@ header{
 .col .offer-img{
    scale: 3.5;
    padding-right:50px;
+}
+
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial col3{
+    text-align: center;
+    padding: 40px 20px; 
+}
+.testimonial .col3 img{
+    width:100px;
+    margin-top:20px;
+    border-radius:50%;
 }
