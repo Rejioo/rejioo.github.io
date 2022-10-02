@@ -17,13 +17,14 @@
                 <img src="webbb/logo/22.png" alt="lol"  width="120px">
             </div>
             <nav>
-                <ul>
+                <ul id="menuitems">
                     <li><a href="https://www.youtube.com/watch?v=fC7oUOUEEi4">home</a></li>
                     <li><a href="https://www.youtube.com/watch?v=fC7oUOUEEi4">product</a></li>
                     <li><a href="https://www.youtube.com/watch?v=fC7oUOUEEi4">account</a></li>
                 </ul>
             </nav>
             <img src="webbb/logo/cart.png" alt="lol" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
 
     </header>
@@ -44,7 +45,8 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"class="btn">Explore now</a>
         </div>
         <div class="col">
-        <img src="webbb/logo/catto-cat.gif" alt="lol2">
+        <img src="webbb/logo/catto-cat.gif" class="uh">
+        <a href="https://imgur.com/t/rickroll/Z1VWaMH"><img src="webbb/logo/insta.png" class="uhh" ></a></li>
 
         </div>
     </div>
@@ -256,7 +258,7 @@
             <div class="rows">
                 <div class="col3">
                     <i class="fa fa-quote-left"></i>
-                    <p>one eye open when im sleeping, one eye....</p>
+                    <p>one eye open when im sleeping</p>
                     <div class="rating">
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
@@ -264,8 +266,8 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star-o" ></i>
                     </div>        
-                    <img src="images/user-1.png" alt="">
-                    <h3>maria auditore</h3>
+                    <img src="webbb/logo/saul.png"  >
+                    <h3>Saul Goodman</h3>
                 </div>
                 <div class="col3">
                     <i class="fa fa-quote-left"></i>
@@ -297,9 +299,59 @@
         </div>
     </div>
 
+<!--foooter-->  
+    <div class="footer">
+        <div class="cont">
+            <div class="rows">
+                <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android And Ios</p>
+                    <div class="applogo">
+                        <img src="webbb/logo/play-store.png" alt="">
+                        <img src="webbb/logo/app-store.png" alt="">
+                    </div>
+    
+                </div>
+                <div class="footer-col2">
+                    <img src="webbb/logo/222.png" height="100" >
+                </div>
+                
+                <div class="footer-col3">
+                    <h3>Follow Us</h3>
+                    <nav1>
+                        <ul>
+                            <li><a href="https://www.instagram.com/rejio__/"><img src="webbb/logo/insta.png" height="30" ></a></li>
+                            <li><a href="https://www.facebook.com"><img src="webbb/logo/facebook.png" height="30" ></a></li>
+                            <li><a href="https://www.twitter.com"><img src="webbb/logo/twitter.png" height="35" ></a></li>
+                            
+                        </ul>
+
+                    </nav1>
+                    
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
   
 
-
+<!--js-->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxheight='0px';
+        
+        function menutoggle() {
+            if(menuitems.style.maxHeight=='0px')
+            {
+                menuitems.style.maxHeight='200px';
+            }
+            else
+                {
+                    menuitems.style.maxHeight='0px';
+                }
+        }
+    </script>
 
 
 

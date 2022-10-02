@@ -135,13 +135,91 @@ header{
 
 .testimonial{
     padding-top: 100px;
+
 }
-.testimonial col3{
-    text-align: center;
-    padding: 40px 20px; 
+.testimonial img{
+    width: 70%;
+    border-radius: 50%;
 }
-.testimonial .col3 img{
-    width:100px;
+
+/*footer*/
+.footer{
+    background:#000;
+    color:#8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+ul{
+    list-style: none;
+}
+.applogo{
     margin-top:20px;
-    border-radius:50%;
+
+}
+.applogo img{
+    width:140px;
+}
+.menu-icon{
+    width: 28px;
+    margin-left:20px;
+    display:none;
+}
+nav1{
+    flex: 1;
+    text-align: right;
+}
+nav1 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav1 ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width:800px){
+    nav ul{
+        position:absolute;
+        top:130px;
+        left:0;
+        background:#333;
+        width:100%;
+        overflow:hidden;
+        transition:max-height 0.5s ;
+    }
+    nav ul li{
+        display:block;
+        margin-right:50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    nav ul li a{
+        color:#fff;
+    }
+    .menu-icon{
+        display:block;
+        cursor:pointer;
+    }
+}
+.uh{
+    
+    z-index: 1;
+    
+   
+}
+.uhh{
+    position: absolute;
+    z-index: 2;    /* Place this image in front of the img1 */
+    width: 4%;
+    top: 400px;
+    left: 1420px;
+    opacity: 0;
 }
