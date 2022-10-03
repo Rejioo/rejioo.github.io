@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -218,8 +219,8 @@ nav1 ul li{
 .uhh{
     position: absolute;
     z-index: 2;    /* Place this image in front of the img1 */
-    width: 4%;
+    width: 7%;
     top: 400px;
-    left: 1420px;
+    transform:translateX(-215px);
     opacity: 0;
 }
