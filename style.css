@@ -89,6 +89,7 @@ header{
     margin-bottom: 30px;
     margin-top: 30px;
     padding-left: 30px;
+    transition: transform 0.5s;
 }
 .col3 img{
     width: 100%;
@@ -98,9 +99,12 @@ header{
     margin:auto;
     padding-left: 25px;
     padding-right: 25px;
-    
-    
-    
+}
+.cont11{
+    max-width: 1440px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px; 
 }
 
 
@@ -127,6 +131,11 @@ header{
 }
 .col4:hover{
     transform: scale(110%);
+ 
+}
+.col3:hover{
+    transform: scale(110%);
+ 
 }
 .offer{
     
@@ -366,4 +375,10 @@ td:last-child{
 }
 th:last-child{
     text-align:right;
+}
+.row4 img:hover{
+    border: 1px solid black;
+}
+.row4{
+    margin-bottom:15px;
 }
